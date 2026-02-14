@@ -35,15 +35,15 @@ git clone https://github.com/vicbaltazar/pokefolio.git
 cd pokefolio
 npm install
 npm run dev
-
 Depois, acesse: http://localhost:3000
+'''md
 ---
 
 ## Seções do Pokefolio
 
-- Hero com apresentação e links rápidos  
-- Sobre mim e o que estou estudando  
-- Skills técnicas  
-- O que eu faço (serviços)  
-- Projetos em destaque  
+- Hero com apresentação e links rápidos
+- Sobre mim e o que estou estudando
+- Skills técnicas
+- O que eu faço (serviços)
+- Projetos em destaque
 - Contato (email, GitHub e LinkedIn)
