@@ -37,8 +37,6 @@ npm install
 npm run dev
 
 Depois, acesse: http://localhost:3000
-
-```md
 ---
 
 ## Seções do Pokefolio
