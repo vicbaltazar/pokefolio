@@ -161,12 +161,7 @@ function Hero() {
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a
-            href="#projects"
-            className="inline-flex items-center justify-center rounded-full px-5 py-2 text-sm font-medium bg-gradient-to-r from-primary to-amber-500 text-slate-950 shadow-[0_18px_40px_rgba(250,204,21,0.4)] hover:translate-y-[-1px] transition"
-          >
-            Ver projetos
-          </a>
+        
           <a
             href="#contact"
             className="inline-flex items-center justify-center rounded-full px-5 py-2 text-sm font-medium border border-slate-600 text-slate-100 hover:border-primary hover:bg-white/5 transition"
