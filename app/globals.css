@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  /* fundo azul-escuro inspirado no patch */
+  --background: #020617; /* base escura */
+  --foreground: #e5e7eb; /* texto claro */ 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: radial-gradient(circle at top, #1d366c 0, #020617 45%, #000 100%);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+/* Scrollbar geral (WebKit: Chrome, Edge, Brave, etc.) */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #22d3ee, #fbbf24);
+  border-radius: 999px;
+  border: 2px solid #020617;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #0ea5e9, #f59e0b);
+}
+
+/* Scrollbar para Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #22d3ee #020617; /* thumb e track */
+}
