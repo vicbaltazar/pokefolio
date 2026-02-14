@@ -2,6 +2,12 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
+
 
 export default function Home() {
   return (
@@ -129,6 +135,32 @@ function Hero() {
           versionamento no GitHub.
         </p>
         <div className="flex flex-wrap gap-3 mt-6 mb-4">
+          <Link 
+            href="/VitoriaBCv.pdf"
+            download
+            className="inline-flex items-center justify-center rounded-full px-5 py-2 text-sm font-medium bg-slate-800 text-slate-100 hover:bg-slate-700 transition"
+          >
+            Download CV
+            <FontAwesomeIcon icon={faDownload} className="ml-2 text-xs" />
+          </Link>
+
+          <a
+            href="https://github.com/vicbaltazar"
+            target="_blank"
+            className="inline-flex items-center justify-center h-9 w-9 rounded-full border border-slate-600 text-slate-200 hover:border-sky-400 hover:bg-slate-900/70 transition"
+            aria-label="GitHub"
+          >
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/vit%C3%B3ria-baltazar-3944a72ab/"
+            target="_blank"
+            className="inline-flex items-center justify-center h-9 w-9 rounded-full border border-slate-600 text-slate-200 hover:border-sky-400 hover:bg-slate-900/70 transition"
+            aria-label="LinkedIn"
+          >
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
           <a
             href="#projects"
             className="inline-flex items-center justify-center rounded-full px-5 py-2 text-sm font-medium bg-gradient-to-r from-primary to-amber-500 text-slate-950 shadow-[0_18px_40px_rgba(250,204,21,0.4)] hover:translate-y-[-1px] transition"
