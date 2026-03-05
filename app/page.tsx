@@ -123,7 +123,7 @@ function Hero() {
     >
       <div className="flex-1">
         <p className="text-xs tracking-[0.2em] uppercase text-primary mb-3">
-          Desenvolvedora backend em formação
+          Desenvolvedora Fullstack em formação
         </p>
         <h1 className="text-4xl md:text-5xl font-semibold leading-tight mb-3">
           Vitória Baltazar
@@ -136,7 +136,7 @@ function Hero() {
         </p>
         <div className="flex flex-wrap gap-3 mt-6 mb-4">
           <Link 
-            href="/VitoriaBCv.pdf"
+            href="/VitoriaB CV.pdf"
             download
             className="inline-flex items-center justify-center rounded-full px-5 py-2 text-sm font-medium bg-slate-800 text-slate-100 hover:bg-slate-700 transition"
           >
